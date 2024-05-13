@@ -1,0 +1,103 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    height: 23rem;
+    margin-bottom:1rem;
+    text-align:-webkit-center;
+    align-content: center;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+main p{
+    font-size: 1rem;
+    width: 70%;
+
+}
+nav{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+}
+ body,  ul{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0
+}
+ul{
+    margin:0 auto;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 1.5em;
+    line-height: 3em;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(99, 96, 96);
+}
+
+.logo img{
+    width: 10rem;
+}
+.logo{
+    margin-bottom: 0;
+    display: contents;
+}
+svg{
+    width: 1rem;
+}
+.item1 , .item2{
+    display: flex;
+    gap: 12px;
+
+}
+.iteminterno{
+    display: block;
+    text-align:-webkit-center;
+}
+.iconos{
+    padding: 1.1rem;
+    border-radius: 2rem;
+    width: 1rem;
+    height: 1rem;
+    align-content: center;
+}
+.ios{
+    background-color: rgb(203, 22, 22);
+}
+.android{
+    background-color:green;
+}
+.windows{
+    background-color: rgb(4, 52, 148);
+}
+.ruby{
+    background-color: rgb(126, 9, 236);
+}
+.js{
+    background-color: rgb(5, 218, 118);
+}
+.responsive{
+    background-color: rgba(49, 5, 152, 0.918);
+}
+body{
+    background-image: url(../img/images-63-1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.fondo
+{
+    margin: 0 2rem;
+}
+.content{
+    background-color:white;
+    border-radius: 0.2rem;
+    padding: 2rem;
+
+}
