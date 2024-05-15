@@ -87,7 +87,7 @@ svg{
 }
 body{
     background-image: url(../img/images-63-1.webp);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 
 }
