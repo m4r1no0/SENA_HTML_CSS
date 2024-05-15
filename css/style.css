@@ -74,7 +74,7 @@ svg{
     background-color:green;
 }
 .windows{
-    background-color: rgb(4, 52, 148);
+    background-color: rgb(9, 75, 207);
 }
 .ruby{
     background-color: rgb(126, 9, 236);
@@ -83,11 +83,11 @@ svg{
     background-color: rgb(5, 218, 118);
 }
 .responsive{
-    background-color: rgba(49, 5, 152, 0.918);
+    background-color: rgba(45, 6, 138, 0.918);
 }
 body{
     background-image: url(../img/images-63-1.webp);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 
 }
@@ -100,4 +100,7 @@ body{
     border-radius: 0.2rem;
     padding: 2rem;
     margin-top: 3rem
+}
+.iteminterno{
+    width: 33%;
 }
