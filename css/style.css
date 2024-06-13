@@ -1,106 +1,223 @@
-
 *{
-    font-family: Arial, Helvetica, sans-serif;
-}
-main{
-    height: 23rem;
-    margin-bottom:1rem;
-    text-align:-webkit-center;
-    align-content: center;
-    color: white;
-}
-h1{
-    font-size: 3rem;
-    font-weight: 400;
-}
-main p{
-    font-size: 1rem;
-    width: 70%;
-
-}
-nav{
-    width: 100%;
-    background-color:rgb(255, 255, 255);
-    display: flex;
-}
- body,  ul{
-    margin-top: 0;
-    padding: 0;
-    margin-bottom: 0
-}
-ul{
-    margin:0 auto;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 1.5rem;
-    line-height: 3rem;
-}
-nav a{
-    text-decoration: none;
-    color: rgb(99, 96, 96);
-}
-
-.logo img{
-    width: 10rem;
-}
-.logo{
-    margin-bottom: 0;
-    display: contents;
-}
-svg{
-    width: 1rem;
-}
-.item1 , .item2{
-    display: flex;
-    gap: 12px;
-
-}
-.iteminterno{
-    display: block;
-    text-align:-webkit-center;
-}
-.iconos{
-    padding: 1.1rem;
-    border-radius: 2rem;
-    width: 1rem;
-    height: 1rem;
-    align-content: center;
-}
-.ios{
-    background-color: rgb(203, 22, 22);
-}
-.android{
-    background-color:green;
-}
-.windows{
-    background-color: rgb(9, 75, 207);
-}
-.ruby{
-    background-color: rgb(126, 9, 236);
-}
-.jvas{
-    background-color: rgb(5, 218, 118);
-}
-.responsive{
-    background-color: rgba(45, 6, 138, 0.918);
+    margin: 0;                          /*margen como espacio externo */
+    padding:0;                          /* margen como espacio interno */
 }
 body{
-    background-image: url(../img/images-63-1.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    text-align: center;                 /*Texto centrado */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background: rgba(7, 0, 0, 0.82);                /* color de fondo */
+    color: blue;                     /*color de fuente*/
+    text-align: center;
+    position: fixed;                   /*que el elemento no se mueva de una posicion*/
+    width: 100%;
+
 
 }
-.fondo
-{
-    margin: 0 2rem;
+nav ul li {
+    display: inline-block;            /* alinear horizontalmente */
+    margin-right: 1.5em;              /* margen a la der */
+    line-height: 3em;                 /* alinear verticalmente en un alto determinado */
 }
-.content{
-    background-color:white;
-    border-radius: 0.2rem;
-    padding: 2rem;
-    margin-top: 3rem
+
+nav ul li a{
+    color: blue;
+    font-size: 1.3em;
+    text-decoration: none;          /* Decoracion de texto= ninguna */
 }
-.iteminterno{
-    width: 33%;
+nav ul li a:hover{                  /* cuando el puntero del mouse este sobre */
+    color: brown;
 }
+header{
+    background-image: url('../img/Fondoweb.jpg');
+                                    /* background-repeat: no-repeat;  evitar q se repita la imagen */
+                                    /* background-size: cover; cubre toda la seccion */
+    padding: 2em 0em;
+}
+.mi_foto{
+    border-radius: 50%; /* redondear borde */
+    border:2px rgb(10, 25, 240) solid;
+    width: 20%;
+    margin-top: 1.9em;
+}
+
+header a{
+    color: black;
+    font-family: cursive;
+    text-decoration: none;
+
+ }
+ #titulo{
+    background-color: rgba(14, 52, 245, 0.329);
+    width: 50%;
+    margin: 1em auto;
+    padding: 1em;
+    color:black;
+    text-shadow:10px 5px 5px rgb(17, 62, 224);
+    }
+ section{
+    width: 80%;
+                    /* border:  2px red solid; */
+    margin:2em auto ;
+    padding: 2em;
+    box-shadow:0.5em 0.5em 0.5em 0.5em black; /* sobre_caja valores_respectivos -ejex-ejey-trasparencia-grosor-color */
+ }
+section h2{
+    color: black;
+    border-bottom: 4px rgb(0, 17, 255) solid;
+    margin: 2em 0;
+    font-size: 1.8em;
+    font-weight: bold; /* ancho de la fuente (negrita)*/
+}
+#perfil p{
+    margin-bottom: 1em;
+}
+.destacado{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgb(92, 92, 92);
+}
+
+.proyecto1{
+    border:1px rgb(6, 6, 6) solid;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.proyecto1.green{
+    background-color: rgb(12, 15, 198);
+}
+
+.proyecto1.red{
+    background-color:rgb(30, 25, 198) ;
+}
+.proyecto1.blue{
+    background-color:rgb(131, 130, 132) ;
+}
+.proyecto1.yellow{
+    background-color:rgb(138, 138, 134) ;
+
+}
+.proyecto1.green:hover{
+    box-shadow:0px 0px 5px 5px rgb(24, 207, 24);
+    background-color: greenyellow;
+    margin: 1em;
+}
+.proyecto1.red:hover{
+    box-shadow:0px 0px 5px 5px rgb(254, 2, 2);
+    background-color: rgb(228, 55, 55);
+    margin: 1em;
+}
+.proyecto1.blue:hover{
+    box-shadow:0px 0px 5px 5px rgb(62, 10, 217);
+    background-color: rgb(8, 242, 207);
+    margin: 1em;
+}
+.proyecto1.yellow:hover{
+    box-shadow:0px 0px 5px 5px yellow;
+    background-color: rgb(255, 17, 17);
+    margin: 1em;
+}
+
+#contenido_perfil{
+    display: flex;
+}
+.col{
+    width: 40%;
+    border:1px red;
+    display: inline-block;/* alineacion horizontal*/
+    vertical-align: top; /*que el contenido de alinee contenido desde arriba*/
+    text-align: left; /*alinear text a la izq*/
+    margin:0 auto;
+    margin-inline:2em;
+    margin-top: 1.3em;
+}
+.exp h3{
+    color:rgb(10, 10, 218);
+}
+.fila{
+    display: flex;
+    
+}
+#habilidades .col{
+    width: 30%;
+
+}
+img{
+    max-width: 100%;
+}
+.logos{
+    width: 30%;
+}
+.texto{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.formulario{
+    display: block;
+    border: 3px blue solid;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+#contactos .col{
+    width: 25%;
+
+}
+#contactos .mapa{
+    width: 40%;
+    margin-top: 1em;
+    
+}
+#contactos h3{
+    margin-top: 1em;
+}
+ input.formulario.boton:hover{
+    box-shadow:0px 0px 5px 5px rgb(62, 10, 217);
+
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.596);
+    color: white;
+    padding: 2em;
+    
+}
+footer i{
+    font-size: 2em;
+    margin:0.2em 0.3em;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(9, 177, 140);
+}
+footer a:hover{
+color: rgb(255, 255, 255);
+}
+.flecha{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0.3em;
+    box-shadow: 0 0 5px 10px gray;
+}
+.flecha a{
+    color: rgb(17, 0, 255);
+}
+
+
+
+
+
+
+
